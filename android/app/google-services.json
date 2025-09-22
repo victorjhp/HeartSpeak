@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419793111903",
+    "project_id": "paac-72b16",
+    "storage_bucket": "paac-72b16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419793111903:android:751e6f217bfb969eeb04ea",
+        "android_client_info": {
+          "package_name": "com.edubridge.paac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPCcaLHOZfiMj-yngS1cdaU78zvfAPSEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
