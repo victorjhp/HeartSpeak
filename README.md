@@ -1,20 +1,18 @@
-<<<<<<< HEAD
 # HeartSpeak
-=======
-# firstly
 
-A new Flutter project.
+HeartSpeak is a Flutter-based **Augmentative and Alternative Communication (AAC) app** designed to help individuals with communication impairments express themselves more easily.  
+It provides a simple, customizable interface where users can select words or phrases that are then converted into speech.
+
+## Features
+- 🔤 Customizable vocabulary and categories  
+- 🗣️ Text-to-Speech integration  
+- 📊 Basic data tracking for commonly used phrases  
+- ☁️ Firebase integration for saving user preferences  
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is built with Flutter. To run it locally:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> eafae5a (First commit: Flutter project)
+```bash
+flutter pub get
+flutter run
