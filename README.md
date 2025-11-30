@@ -9,12 +9,11 @@ AAC (Augmentative and Alternative Communication) tools are designed to support p
 - Converts text selections into clear, spoken output with one tap.
 
 ## Features
-- 🔤 **Customizable vocabulary and categories**
-- 🗣️ **Text-to-Speech integration** (adjust voice, pitch, and speed)
-- 🤖 **Smart phrase suggestions** using TF-IDF + cosine similarity
-- 📊 **Basic data tracking** for commonly used phrases
-- ☁️ **Firebase integration** for saving user preferences
-- 📶 **Offline-first** local storage with optional sync
+- **Text-to-Speech integration** (adjust voice, pitch, and speed)
+- **Smart phrase suggestions** using TF-IDF + cosine similarity
+- **Basic data tracking** for commonly used phrases
+- **Firebase integration** for saving user preferences
+- **Offline-first** local storage with optional sync
 
 ---
 
@@ -36,3 +35,4 @@ double cosineSimilarity(List<double> v1, List<double> v2) {
   final normV2 = v2.map((x) => x * x).reduce((a, b) => a + b).sqrt();
   return dotProduct / (normV1 * normV2);
 }
+
